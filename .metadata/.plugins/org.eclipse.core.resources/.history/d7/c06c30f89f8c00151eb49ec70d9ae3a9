@@ -1,0 +1,20 @@
+
+public abstract class Jegue extends Veiculo{
+	
+	@Override
+	void acelera() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	void freia() {
+	// TODO Auto-generated method stub
+	
+	}
+	 
+	abstract void corre();
+	
+	abstract void mode();
+	
+	
+}
