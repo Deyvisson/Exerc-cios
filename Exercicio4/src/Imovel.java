@@ -2,7 +2,8 @@
 public class Imovel {
 	
 	private String imovel;
-	private int pre�o;
+	//ATENÇÃO: Não pode usar caracteres de acentuação em Java (ç, ´, `, ^, ~, etc...)
+	private int preço;
 	
 	
 	
@@ -12,11 +13,11 @@ public class Imovel {
 	public void setImovel(String imovel) {
 		this.imovel = imovel;
 	}
-	public int getPre�o() {
-		return pre�o;
+	public int getPreço() {
+		return preço;
 	}
-	public void setPre�o(int pre�o) {
-		this.pre�o = pre�o;
+	public void setPreço(int preço) {
+		this.preço = preço;
 	}
 	
 	
